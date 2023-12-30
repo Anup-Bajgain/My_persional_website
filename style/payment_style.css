@@ -1,0 +1,62 @@
+ /* CSS code for payment form */
+ *{
+    margin: 10px 10px;
+    box-sizing: content-box;
+ }
+ fieldset{
+    font-style: italic;
+    font-weight: bold;
+ }
+
+ sup,.asterik{
+    color: red !important;
+    text-align: left;
+ }
+
+h2{
+    background-color: rgb(90, 47, 102);
+    height: 36px;
+    width: 100%;
+    color:rgb(15, 227, 96);
+    font-weight: bold;
+    font-family:cursive ;
+    text-align: center;
+}
+
+input[type="radio"]
+{
+    text-align:justify-all;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="address"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea
+{
+    width: 100%;
+    align-items:flex-start;
+    text-align:left;
+}
+
+input[type="submit"]
+{
+    background-color:green;
+    box-shadow: 2px -2px 2px grey;
+    align-content: center;
+    text-align: center;
+    padding: 2% 7%;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover{
+    background-color: aqua;
+    color: red;
+
+}
