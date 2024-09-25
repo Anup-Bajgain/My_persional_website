@@ -6,9 +6,16 @@ h2.welcome {
 }
 
 #hello {
-  font-size: 100px;
+  font-size: 200px;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+#itIsMe {
+  font-size: 100px;
+  font-family: "Sevillana", cursive;
+  font-optical-sizing: 0px;
   font-weight: normal;
   font-style: normal;
 }
@@ -40,4 +47,8 @@ div.navi {
 
 .clip {
   clip-path: circle(35% at 50% 50%);
+}
+span:before {
+  content: "\a";
+  white-space: pre;
 }
